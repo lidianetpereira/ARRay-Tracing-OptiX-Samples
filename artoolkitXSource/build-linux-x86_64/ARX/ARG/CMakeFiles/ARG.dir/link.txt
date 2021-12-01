@@ -1,0 +1,2 @@
+/usr/bin/ar qc libARG.a  CMakeFiles/ARG.dir/arg.c.o CMakeFiles/ARG.dir/arg_gl.c.o CMakeFiles/ARG.dir/arg_gles2.c.o CMakeFiles/ARG.dir/arg_gl3.c.o CMakeFiles/ARG.dir/mtx.c.o CMakeFiles/ARG.dir/glStateCache2.c.o CMakeFiles/ARG.dir/shader_gl.c.o
+/usr/bin/ranlib libARG.a

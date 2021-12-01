@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOCVT.a  CMakeFiles/OCVT.dir/OCVConfig.cpp.o CMakeFiles/OCVT.dir/HarrisDetector.cpp.o CMakeFiles/OCVT.dir/OCVFeatureDetector.cpp.o CMakeFiles/OCVT.dir/PlanarTracker.cpp.o CMakeFiles/OCVT.dir/TrackedPoint.cpp.o CMakeFiles/OCVT.dir/TrackingPointSelector.cpp.o CMakeFiles/OCVT.dir/HomographyInfo.cpp.o
+/usr/bin/ranlib libOCVT.a

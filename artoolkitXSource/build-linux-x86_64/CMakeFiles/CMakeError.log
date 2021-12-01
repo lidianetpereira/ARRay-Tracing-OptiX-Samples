@@ -1,0 +1,605 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cb91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cb91.dir/build.make CMakeFiles/cmTC_8cb91.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cb91.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_8cb91.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8cb91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cb91.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_8cb91.dir/CheckSymbolExists.c.o  -o cmTC_8cb91 
+CMakeFiles/cmTC_8cb91.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8cb91.dir/build.make:97: recipe for target 'cmTC_8cb91' failed
+make[1]: *** [cmTC_8cb91] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8cb91/fast' failed
+make: *** [cmTC_8cb91/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f7bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f7bf.dir/build.make CMakeFiles/cmTC_1f7bf.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f7bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1f7bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f7bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f7bf.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1f7bf.dir/CheckFunctionExists.c.o  -o cmTC_1f7bf -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1f7bf.dir/build.make:97: recipe for target 'cmTC_1f7bf' failed
+make[1]: *** [cmTC_1f7bf] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1f7bf/fast' failed
+make: *** [cmTC_1f7bf/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9dd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9dd6.dir/build.make CMakeFiles/cmTC_e9dd6.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9dd6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_e9dd6.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9dd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9dd6.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_e9dd6.dir/CheckSymbolExists.c.o  -o cmTC_e9dd6 
+CMakeFiles/cmTC_e9dd6.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e9dd6.dir/build.make:97: recipe for target 'cmTC_e9dd6' failed
+make[1]: *** [cmTC_e9dd6] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e9dd6/fast' failed
+make: *** [cmTC_e9dd6/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40acf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40acf.dir/build.make CMakeFiles/cmTC_40acf.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40acf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40acf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40acf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40acf.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_40acf.dir/CheckFunctionExists.c.o  -o cmTC_40acf -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_40acf.dir/build.make:97: recipe for target 'cmTC_40acf' failed
+make[1]: *** [cmTC_40acf] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40acf/fast' failed
+make: *** [cmTC_40acf/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da956/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da956.dir/build.make CMakeFiles/cmTC_da956.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da956.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_da956.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_da956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da956.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_da956.dir/CheckSymbolExists.c.o  -o cmTC_da956 
+CMakeFiles/cmTC_da956.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_da956.dir/build.make:97: recipe for target 'cmTC_da956' failed
+make[1]: *** [cmTC_da956] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_da956/fast' failed
+make: *** [cmTC_da956/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0579/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0579.dir/build.make CMakeFiles/cmTC_c0579.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0579.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c0579.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0579.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c0579.dir/CheckFunctionExists.c.o  -o cmTC_c0579 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c0579.dir/build.make:97: recipe for target 'cmTC_c0579' failed
+make[1]: *** [cmTC_c0579] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c0579/fast' failed
+make: *** [cmTC_c0579/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eca0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eca0c.dir/build.make CMakeFiles/cmTC_eca0c.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eca0c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_eca0c.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eca0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca0c.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_eca0c.dir/CheckSymbolExists.c.o  -o cmTC_eca0c 
+CMakeFiles/cmTC_eca0c.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eca0c.dir/build.make:97: recipe for target 'cmTC_eca0c' failed
+make[1]: *** [cmTC_eca0c] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eca0c/fast' failed
+make: *** [cmTC_eca0c/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc758/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc758.dir/build.make CMakeFiles/cmTC_cc758.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc758.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cc758.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc758
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc758.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cc758.dir/CheckFunctionExists.c.o  -o cmTC_cc758 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc758.dir/build.make:97: recipe for target 'cmTC_cc758' failed
+make[1]: *** [cmTC_cc758] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc758/fast' failed
+make: *** [cmTC_cc758/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30872/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30872.dir/build.make CMakeFiles/cmTC_30872.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30872.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_30872.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_30872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30872.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_30872.dir/CheckSymbolExists.c.o  -o cmTC_30872 
+CMakeFiles/cmTC_30872.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_30872.dir/build.make:97: recipe for target 'cmTC_30872' failed
+make[1]: *** [cmTC_30872] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_30872/fast' failed
+make: *** [cmTC_30872/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aca73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aca73.dir/build.make CMakeFiles/cmTC_aca73.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aca73.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aca73.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aca73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aca73.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aca73.dir/CheckFunctionExists.c.o  -o cmTC_aca73 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aca73.dir/build.make:97: recipe for target 'cmTC_aca73' failed
+make[1]: *** [cmTC_aca73] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aca73/fast' failed
+make: *** [cmTC_aca73/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82b79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82b79.dir/build.make CMakeFiles/cmTC_82b79.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82b79.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_82b79.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_82b79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82b79.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_82b79.dir/CheckSymbolExists.c.o  -o cmTC_82b79 
+CMakeFiles/cmTC_82b79.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_82b79.dir/build.make:97: recipe for target 'cmTC_82b79' failed
+make[1]: *** [cmTC_82b79] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82b79/fast' failed
+make: *** [cmTC_82b79/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b77f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b77f7.dir/build.make CMakeFiles/cmTC_b77f7.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b77f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b77f7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b77f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b77f7.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b77f7.dir/CheckFunctionExists.c.o  -o cmTC_b77f7 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b77f7.dir/build.make:97: recipe for target 'cmTC_b77f7' failed
+make[1]: *** [cmTC_b77f7] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b77f7/fast' failed
+make: *** [cmTC_b77f7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1ec1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1ec1.dir/build.make CMakeFiles/cmTC_b1ec1.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ec1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_b1ec1.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b1ec1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ec1.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_b1ec1.dir/CheckSymbolExists.c.o  -o cmTC_b1ec1 
+CMakeFiles/cmTC_b1ec1.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b1ec1.dir/build.make:97: recipe for target 'cmTC_b1ec1' failed
+make[1]: *** [cmTC_b1ec1] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b1ec1/fast' failed
+make: *** [cmTC_b1ec1/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_844e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_844e0.dir/build.make CMakeFiles/cmTC_844e0.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_844e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_844e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_844e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_844e0.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_844e0.dir/CheckFunctionExists.c.o  -o cmTC_844e0 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_844e0.dir/build.make:97: recipe for target 'cmTC_844e0' failed
+make[1]: *** [cmTC_844e0] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_844e0/fast' failed
+make: *** [cmTC_844e0/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29ff9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29ff9.dir/build.make CMakeFiles/cmTC_29ff9.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29ff9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_29ff9.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29ff9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29ff9.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_29ff9.dir/CheckSymbolExists.c.o  -o cmTC_29ff9 
+CMakeFiles/cmTC_29ff9.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_29ff9.dir/build.make:97: recipe for target 'cmTC_29ff9' failed
+make[1]: *** [cmTC_29ff9] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29ff9/fast' failed
+make: *** [cmTC_29ff9/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85774/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85774.dir/build.make CMakeFiles/cmTC_85774.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85774.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_85774.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_85774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85774.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_85774.dir/CheckFunctionExists.c.o  -o cmTC_85774 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_85774.dir/build.make:97: recipe for target 'cmTC_85774' failed
+make[1]: *** [cmTC_85774] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_85774/fast' failed
+make: *** [cmTC_85774/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ac25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ac25.dir/build.make CMakeFiles/cmTC_7ac25.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ac25.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib    -o CMakeFiles/cmTC_7ac25.dir/CheckSymbolExists.c.o   -c /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7ac25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ac25.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib     CMakeFiles/cmTC_7ac25.dir/CheckSymbolExists.c.o  -o cmTC_7ac25 
+CMakeFiles/cmTC_7ac25.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ac25.dir/build.make:97: recipe for target 'cmTC_7ac25' failed
+make[1]: *** [cmTC_7ac25] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7ac25/fast' failed
+make: *** [cmTC_7ac25/fast] Error 2
+
+File /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf877/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf877.dir/build.make CMakeFiles/cmTC_cf877.dir/build
+make[1]: Entering directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf877.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf877.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf877.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cf877.dir/CheckFunctionExists.c.o  -o cmTC_cf877 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf877.dir/build.make:97: recipe for target 'cmTC_cf877' failed
+make[1]: *** [cmTC_cf877] Error 1
+make[1]: Leaving directory '/home/lidiane/Downloads/artoolkitx-master/Source/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf877/fast' failed
+make: *** [cmTC_cf877/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5f2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5f2f.dir/build.make CMakeFiles/cmTC_b5f2f.dir/build
+make[1]: Entering directory '/home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5f2f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/ARRay-TracingGit/artoolkitXSource/depends/linux/lib    -o CMakeFiles/cmTC_b5f2f.dir/CheckSymbolExists.c.o   -c /home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b5f2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5f2f.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/ARRay-TracingGit/artoolkitXSource/depends/linux/lib     CMakeFiles/cmTC_b5f2f.dir/CheckSymbolExists.c.o  -o cmTC_b5f2f 
+CMakeFiles/cmTC_b5f2f.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b5f2f.dir/build.make:97: recipe for target 'cmTC_b5f2f' failed
+make[1]: *** [cmTC_b5f2f] Error 1
+make[1]: Leaving directory '/home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b5f2f/fast' failed
+make: *** [cmTC_b5f2f/fast] Error 2
+
+File /home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46d21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46d21.dir/build.make CMakeFiles/cmTC_46d21.dir/build
+make[1]: Entering directory '/home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46d21.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/ARRay-TracingGit/artoolkitXSource/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_46d21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46d21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46d21.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/ARRay-TracingGit/artoolkitXSource/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_46d21.dir/CheckFunctionExists.c.o  -o cmTC_46d21 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_46d21.dir/build.make:97: recipe for target 'cmTC_46d21' failed
+make[1]: *** [cmTC_46d21] Error 1
+make[1]: Leaving directory '/home/lidiane/ARRay-TracingGit/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46d21/fast' failed
+make: *** [cmTC_46d21/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76f2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76f2c.dir/build.make CMakeFiles/cmTC_76f2c.dir/build
+make[1]: Entering directory '/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76f2c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/depends/linux/lib    -o CMakeFiles/cmTC_76f2c.dir/CheckSymbolExists.c.o   -c /home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_76f2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f2c.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/depends/linux/lib     CMakeFiles/cmTC_76f2c.dir/CheckSymbolExists.c.o  -o cmTC_76f2c 
+CMakeFiles/cmTC_76f2c.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_76f2c.dir/build.make:97: recipe for target 'cmTC_76f2c' failed
+make[1]: *** [cmTC_76f2c] Error 1
+make[1]: Leaving directory '/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_76f2c/fast' failed
+make: *** [cmTC_76f2c/fast] Error 2
+
+File /home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f19ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f19ec.dir/build.make CMakeFiles/cmTC_f19ec.dir/build
+make[1]: Entering directory '/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f19ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f19ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f19ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f19ec.dir/link.txt --verbose=1
+/usr/bin/cc  -std=gnu11 -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/depends/linux/lib -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f19ec.dir/CheckFunctionExists.c.o  -o cmTC_f19ec -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f19ec.dir/build.make:97: recipe for target 'cmTC_f19ec' failed
+make[1]: *** [cmTC_f19ec] Error 1
+make[1]: Leaving directory '/home/lidiane/Documentos/ARRay-Tracing-master/artoolkitXSource/build-linux-x86_64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f19ec/fast' failed
+make: *** [cmTC_f19ec/fast] Error 2
+
+

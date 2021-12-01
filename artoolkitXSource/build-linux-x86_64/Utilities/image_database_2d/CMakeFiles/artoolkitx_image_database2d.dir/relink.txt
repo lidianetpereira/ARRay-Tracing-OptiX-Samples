@@ -1,0 +1,1 @@
+/usr/bin/c++   -march=core2 -fPIC -Wl,-rpath-link,/home/lidiane/Downloads/artoolkitx-master/Source/depends/linux/lib -g   CMakeFiles/artoolkitx_image_database2d.dir/image_database2d.cpp.o  -o CMakeFiles/CMakeRelink.dir/artoolkitx_image_database2d -Wl,-rpath,"\$ORIGIN/../lib" ../../ARX/libARX.so.1.0.6 /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so -lGL 
