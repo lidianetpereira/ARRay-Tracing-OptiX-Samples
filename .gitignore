@@ -1,3 +1,5 @@
-/data/
+/data/old
+/data/doc
+/data/particles
 /CMakeFiles/
 /cmake-build-debug/
