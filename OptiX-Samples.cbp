@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OptiX-Samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\SDK\;CMake Files\SDK\lib\;CMake Files\SDK\lib\ARX\;CMake Files\CMake\;CMake Files\CMake\FindCUDA\;CMake Files\optixTutorial\;CMake Files\sutil\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTutorial">
+				<Option output="/home/lidiane/ARRay-TracingCorrecoes/bin/optixTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include/optixu"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/support/mdl-sdk/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/SDK/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 optixTutorial"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTutorial/fast">
+				<Option output="/home/lidiane/ARRay-TracingCorrecoes/bin/optixTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include/optixu"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/support/mdl-sdk/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/SDK/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 optixTutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sutil_sdk">
+				<Option output="/home/lidiane/ARRay-TracingCorrecoes/lib/libsutil_sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include/optixu"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/support/mdl-sdk/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/cuda"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 sutil_sdk"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sutil_sdk/fast">
+				<Option output="/home/lidiane/ARRay-TracingCorrecoes/lib/libsutil_sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARX_TARGET_PLATFORM_LINUX=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/sutil"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/include/optixu"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/support/mdl-sdk/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/lidiane/ARRay-TracingCorrecoes/cuda"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 sutil_sdk/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lidiane/ARRay-TracingCorrecoes/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/common.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/helpers.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/intersection_refinement.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/phong.cu">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/phong.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/random.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cuda/triangle_mesh.cu">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/box.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/common.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/diffuse.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/draw.cpp">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/draw.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/helpersAdv.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/hiro.patt">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/kanji.patt">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/optixTutorial.cpp">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/parallelogram.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/phong.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/phong.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/random.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/randomAdv.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial0.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial1.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial10.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial11.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial2.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial3.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial4.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial5.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial6.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial7.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial8.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/tutorial9.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sampleConfig.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/Arcball.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/Arcball.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/GL/glew.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/GL/glxew.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/HDRLoader.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/HDRLoader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/Mesh.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/Mesh.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/OptiXMesh.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/OptiXMesh.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/PPMLoader.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/PPMLoader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/glew.c">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/rply-1.01/rply.c">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/rply-1.01/rply.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/sutil.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/sutil.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/sutilapi.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/tinyobjloader/tiny_obj_loader.cc">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/tinyobjloader/tiny_obj_loader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sampleConfig.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cmake/FindOpenCV.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cmake/FindOpenGL3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/cmake/FindOpenGLES2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/SDK/lib/ARX/ARX-release.cmake">
+			<Option virtualFolder="CMake Files\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/SDK/lib/ARX/ARX.cmake">
+			<Option virtualFolder="CMake Files\SDK\lib\ARX\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/CompilerInfo.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/ConfigCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/FindMDLWrapper.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/FindOptiX.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/FindSUtilGLUT.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/LinuxCPUInfo.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/sse_support.h.in">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/CMake/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\CMake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/optixTutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixTutorial\"/>
+		</Unit>
+		<Unit filename="/home/lidiane/ARRay-TracingCorrecoes/sutil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sutil\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
